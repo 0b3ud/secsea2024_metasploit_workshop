@@ -7,22 +7,21 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="./static/styles.css" rel="stylesheet">
+    <link href="/views/static/styles.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Cicada Symphony</a>
+            <a class="navbar-brand" href="/">Cicada Symphony</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php?url=home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php?url=blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php?url=contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -109,7 +108,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg:#333 text-white text-center py-3">
+    <footer class="bg-dark text-white text-center py-3">
         <div class="container text-center">
             <p>&copy; 2023 Cicada Symphony. All rights reserved.</p>
         </div>
@@ -118,6 +117,6 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
-    <script src="./static/search.js"></script>
+    <script src="/views/static/search.js"></script>
 </body>
 </html>
