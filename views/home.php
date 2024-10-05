@@ -8,7 +8,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="./static/styles.css" rel="stylesheet">
-    <!-- Remove the inline <style> block -->
 </head>
 <body>
     <!-- Navigation -->
