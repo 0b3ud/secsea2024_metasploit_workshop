@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Cicada Symphony</title>
+    <title>Contactez-nous - CigaleBuster Pro</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -14,7 +14,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
-            <a class="navbar-brand" href="/">Cicada Symphony</a>
+            <a class="navbar-brand" href="/">CigaleBuster Pro</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -30,8 +30,8 @@
 
     <!-- Main Content -->
     <main class="container my-5">
-        <h1 class="mb-4">Contact Us</h1>
-        <p>Vous connaissez des cigales ? Balançez les nous par message !</p>
+        <h1 class="mb-4">Contactez CigaleBuster Pro</h1>
+        <p>Envahi par les cigales ? Nous sommes là pour vous aider ! Contactez-nous pour un devis gratuit.</p>
 
         <?php if (!empty($result)): ?>
             <div class="alert alert-info mt-4">
@@ -50,17 +50,17 @@
                 <input type="text" class="form-control" id="email" name="email">
             </div>
             <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
+                <label for="message" class="form-label">Message :</label>
                 <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Envoyer un message</button>
+            <button type="submit" class="btn btn-primary">Envoyer le message</button>
         </form>
     </main>
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
         <div class="container text-center">
-            <p>&copy; 2023 Cicada Symphony. All rights reserved.</p>
+            <p>&copy; 2023 CigaleBuster Pro. All rights reserved.</p>
         </div>
     </footer>
 

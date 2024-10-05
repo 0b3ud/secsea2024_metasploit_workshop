@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cicada Symphony</title>
+    <title>Accueil - CigaleBuster Pro</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -13,7 +13,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
-            <a class="navbar-brand" href="/">Cicada Symphony</a>
+            <a class="navbar-brand" href="/">CigaleBuster Pro</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -29,31 +29,31 @@
 
     <!-- Main Content -->
     <main class="container my-5">
-        <h1 class="mb-4">Welcome to Cicada Symphony</h1>
-        <p>Dive into the fascinating world of cicadas, nature's own orchestra.</p>
+        <h1 class="mb-4">Bienvenue chez CigaleBuster Pro</h1>
+        <p>Découvrez nos solutions professionnelles pour contrôler efficacement les populations de cigales.</p>
         <div class="content-row mt-4">
             <div class="content-column">
-                <h2>Cicada Life Cycles</h2>
-                <p>Explore the incredible 17-year life cycle of periodical cicadas.</p>
+                <h2>Cycle de vie des cigales</h2>
+                <p>Comprendre le cycle de vie des cigales pour mieux les contrôler.</p>
                 <div class="cicada-image">
-                    <img src="https://example.com/cicada-lifecycle.jpg" alt="Cicada Life Cycle" class="img-fluid rounded">
-                    <p class="mt-2"><small>A cicada emerging from its exoskeleton</small></p>
+                    <p class="mt-2"><small>Une cigale émergeant de son exosquelette</small></p>
+                    <img src="https://www.hackinprovence.fr/wp-content/uploads/2021/05/HiPLogo-300x261.png" alt="Cycle de vie des cigales" class="img-fluid rounded">
                 </div>
             </div>
             <div class="content-column">
-                <h2>Cicada Songs</h2>
-                <p>Listen to and learn about the various calls of different cicada species.</p>
+                <h2>Nos méthodes de contrôle</h2>
+                <p>Découvrez nos techniques éprouvées pour réduire les populations de cigales.</p>
                 <div class="cicada-image">
-                    <img src="https://example.com/cicada-singing.jpg" alt="Singing Cicada" class="img-fluid rounded">
-                    <p class="mt-2"><small>A cicada producing its distinctive song</small></p>
+                    <p class="mt-2"><small>Nos experts en action</small></p>
+                    <img src="https://m.media-amazon.com/images/I/41nVXHTBxHL._AC_.jpg" alt="Contrôle des cigales" class="img-fluid rounded">
                 </div>
             </div>
             <div class="content-column">
-                <h2>Cicada Photography</h2>
-                <p>View stunning images of cicadas in their natural habitats.</p>
+                <h2>Protection de l'environnement</h2>
+                <p>Nos méthodes respectueuses de l'environnement pour un contrôle durable.</p>
                 <div class="cicada-image">
-                    <img src="https://example.com/cicada-closeup.jpg" alt="Cicada Close-up" class="img-fluid rounded">
-                    <p class="mt-2"><small>Close-up of a cicada's intricate wing pattern</small></p>
+                    <p class="mt-2"><small>Protection de la biodiversité</small></p>
+                    <img src="https://miro.medium.com/v2/resize:fit:1024/1*7L5fF2zfF74EYYFfdFkLPQ.png" alt="Méthodes écologiques" class="img-fluid rounded">
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
         <div class="container text-center">
-            <p>&copy; 2023 Cicada Symphony. All rights reserved.</p>
+            <p>&copy; 2023 CigaleBuster Pro. Tous droits réservés.</p>
         </div>
     </footer>
 
