@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('https://example.com/cicada-pattern.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(255,255,255,.1);
+}
+
+main {
+    flex: 1 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.content-column {
+    flex: 1;
+    min-width: 250px;
+}
+
+.cicada-image {
+    text-align: center;
+}
+
+.cicada-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3 {
+    color: #1a1a1a;
+}
+
+.btn-primary {
+    background-color: #4d4d4d;
+    border-color: #4d4d4d;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .content-column {
+        flex-basis: 100%;
+    }
+}
